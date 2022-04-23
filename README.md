@@ -5,7 +5,7 @@
 This is a proof of concept to replace passwords going over the wire with the use of a deterministically derived EC (in the case P-256) keys leveraging the SubtleCrypto API and JWTs.  Basically it converts a password into an ECC private key, which then is used in a pubkey auth scheme.
 
 ### Why?
-Read the Medium Post
+Read the Medium Post https://medium.com/@jbyj/how-to-secure-your-users-passwords-don-t-send-them-ea0756a425a6
 
 ### Warnings
 - **Do not use in production**.
